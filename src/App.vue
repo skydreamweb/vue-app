@@ -1,27 +1,16 @@
 <template>
   <div id="app">
-
+    <Messages />
   </div>
 </template>
 
 <script>
-import messages from './components/messages.vue'
+import Messages from "./components/Messages.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    messages
+    Messages
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
